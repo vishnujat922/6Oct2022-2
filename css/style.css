@@ -1,0 +1,81 @@
+.p{
+    width: 800px;
+    height: 800px;
+    background-color: black;
+    position: relative;
+    transform: rotate(0deg);
+    transition-property: transform;
+    transition-duration: 5s;
+    transition-timing-function: linear;
+}
+.p:hover{
+    transform: rotate(360deg);
+}
+.c{
+    width: 200px;
+    height: 200px;
+}
+.green{
+    background-color: green;
+    position:absolute;
+    bottom:200px;
+    left:200px;
+    border-top-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+}
+.orange{
+    background-color: orange;
+    position: absolute;
+    top:200px;
+    left:200px;
+    border-top-right-radius: 200px;
+    border-bottom-left-radius: 200px
+}
+.blue{
+    background-color: blue;
+    position:absolute;
+    top:200px;
+    right:200px;
+    border-bottom-right-radius: 200px;
+    border-top-left-radius: 200px;   
+}
+.lightcoral{
+    background-color: lightcoral;
+    position: absolute;
+    bottom:200px;
+    right:200px;          
+    border-bottom-left-radius: 200px;
+    border-top-right-radius: 200px
+}
+.darkkhaki{
+    background-color: darkkhaki;
+    position: absolute;
+    bottom:0px;
+    right:0px;  
+    border-bottom-left-radius: 200px;
+    border-top-right-radius: 200px;        
+}
+.brown{
+    background-color: brown;
+    position: absolute;
+    bottom:0px;
+    left:0px; 
+    border-bottom-right-radius: 200px;
+    border-top-left-radius: 200px;         
+}
+.goldenrod{
+    background-color:goldenrod;
+    position: absolute;
+    top:0px;
+    right:0px;
+    border-bottom-right-radius: 200px;
+    border-top-left-radius: 200px;          
+}
+.crimson{
+    background-color: crimson;
+    position: absolute;
+    top:0px;
+    left:0px;  
+    border-bottom-left-radius: 200px;
+    border-top-right-radius: 200px;        
+}
